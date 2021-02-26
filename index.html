@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section main">
+            <div class="container">
+                <header class="header">
+                    <div class="header__left">
+                        <div class="logo">
+                            <a href="#" class="logo__link">
+                                <img src="img/icon/Livello8.png" class="logo__pic" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Products</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="cart">
+                            <a href="#" class="cart__link">
+                                <!-- <img src="img/icon/fa-shopping-cart.png" alt="cart" class="cart__img"> -->
+                            <i class="sprite sprite-shopping-cart"></i>
+                            </a>
+
+                            <div class="cart__dropdown">
+                             <div class="cart__treangle">
+                                 
+                             </div>
+                                <span class="cart__count">
+                                Товары в корзине 
+                             </span>   
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="main__content">
+                    <div class="main__content-text">
+                        <h1 class="main__title">
+                            Our clothing , your comfort
+                        </h1>
+                        <div class="main__desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officiis doloribus aliquid
+                            aspernatur repellendus quia perspiciatis error soluta maiores odit quo illo amet magnam
+                            molestias quae nulla, neque nobis voluptatibus?
+                        </div>
+                    </div>
+                </div>
+                <div class="down">
+                    <a href="#" class="down__link">
+                        <img src="img/icon/fa-chevron-down.png" alt="" class="down__btn">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product__filter">
+                <div class="container product__container">
+                    <div class="product__filter-content">
+                        <ul class="product__filter-list">
+                            <li class="product__filter-item">
+                                <label>
+                                    <input type="checkbox" class="product__filter-gender">
+                                    <span class="product__filter-gender-text">men</span>
+                                </label>
+                            </li>
+                            <li class="product__filter-item">
+                                <label>
+                                    <input type="checkbox" class="product__filter-gender">
+                                    <span class="product__filter-gender-text">women</span>
+                                </label>
+                            </li>
+                            <li class="product__filter-item">
+                                <label>
+                                    <input type="checkbox" class="product__filter-gender">
+                                    <span class="product__filter-gender-text">children</span>
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="product__filter-button">
+                            <a href="#" class="product__filter-link">
+                                see all products
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container"></div>
+            <ul class="product__list">
+                <div class="container">
+                    <!--Список товаров-->
+                    <li class="product__item">
+                        <!--Товары для мужчин-->
+                        <div class="product__separator">
+                            <!--Разделитель-->
+                            <span class="product__separator-text product__separator-text_men">men</span>
+                            <div class="product__separator-line"></div>
+                        </div>
+                        <div class="product__switch-content">
+                            <!--Переключатель-->
+                            <div class="product__switch-elements">
+                                <div class="product__indicator-page">
+                                    <span class="product__indicator-page"> 1 </span>
+                                    <span class="product__indicator-slash">&#47;</span>
+                                    <span class="product__indicator-page"> 5 </span>
+                                </div>
+                                <div class="product__paginator">
+                                    <a class="product__prev-page">
+                                        <img src="img/icon/fa-chevron-left.png" alt="" class="product__paginator-pic">
+                                    </a>
+                                    <a class="product__next-page">
+                                        <img src="img/icon/chevron-right.png" alt="" class="product__paginator-pic">
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="product__element-list">
+                                <!--Футболка-->
+                                <li class="product__element-item">
+                                    <div class="product__element-header">
+                                        <div class="product__element-size">
+                                            <span class="product__element-size-text">
+                                                size
+                                            </span>
+                                            <img src="img/icon/fa-angle-down.png" alt="angle_down"
+                                                class="product__element-size-img">
+                                        </div>
+                                        <ul class="product__element-color-list">
+                                            <li class="product__element-color">
+                                                <a href="#"
+                                                    class="product__element-color-link product__element-color-link_blue">
+                                                </a>
+                                            </li>
+                                            <li class="product__element-color">
+                                                <a href="#"
+                                                    class="product__element-color-link product__element-color-link_yellow">
+                                                </a>
+                                            </li>
+                                            <li class="product__element-color">
+                                                <a href="#"
+                                                    class="product__element-color-link product__element-color-link_grey">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__element-img">
+                                        <img src="img/product/tshirt.png" alt="tshirt" class="product__element-pic">
+                                    </div>
+                                    <div class="product__element-footer">
+                                        <div class="product__element-name">
+                                            t-shirt
+                                        </div>
+                                        <div class="product__element-price">
+                                            <span class="product__element-sum">
+                                                5,00
+                                            </span>
+                                            <span class="product__element-currency">
+                                                &euro;
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--Штаны-->
+                                <li class="product__element-item">
+                                    <div class="product__element-header">
+                                        <div class="product__element-size">
+                                            <span class="product__element-size-text">
+                                                size
+                                            </span>
+                                            <img src="img/icon/fa-angle-down.png" alt="angle_down"
+                                                class="product__element-size-img">
+                                        </div>
+                                        <ul class="product__element-color-list">
+                                            <li class="product__element-color">
+                                                <a href="#" class="product__element-color-link">
+                                                </a>
+                                            </li>
+                                            <li class="product__element-color">
+                                                <a href="#" class="product__element-color-link">
+                                                </a>
+                                            </li>
+                                            <li class="product__element-color">
+                                                <a href="#" class="product__element-color-link">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__element-img">
+                                        <img src="img/product/pants.png" alt="tshirt" class="product__element-pic">
+                                    </div>
+                                    <div class="product__element-footer">
+                                        <div class="product__element-name">
+                                            pants forclaz
+                                        </div>
+                                        <div class="product__element-price">
+                                            <span class="product__element-sum">
+                                                30,00
+                                            </span>
+                                            <span class="product__element-currency">
+                                                &euro;
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--Рюкзак-->
+                                <li class="product__element-item">
+                                    <div class="product__element-header">
+                                        <!--Размер-->
+                                        <div class="product__element-size">
+                                            <span class="product__element-size-text">
+                                                10litri
+                                            </span>
+                                            <img src="img/icon/fa-angle-down.png" alt="angle_down"
+                                                class="product__element-size-img">
+                                        </div>
+                                        <!--Цвет-->
+                                        <ul class="product__element-color-list">
+                                            <li class="product__element-color">
+                                                <a href="#" class="product__element-color-link">
+                                                </a>
+                                            </li>
+                                            <li class="product__element-color">
+                                                <a href="#" class="product__element-color-link">
+                                                </a>
+                                            </li>
+                                            <li class="product__element-color">
+                                                <a href="#" class="product__element-color-link">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="product__element-img">
+                                        <img src="img/product/backpack.png" alt="tshirt" class="product__element-pic">
+                                    </div>
+                                    <div class="product__element-footer">
+                                        <div class="product__element-name">
+                                            backpack
+                                        </div>
+                                        <div class="product__element-price">
+                                            <span class="product__element-sum">
+                                                60,00
+                                            </span>
+                                            <span class="product__element-currency">
+                                                &euro;
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                    </li>
+                    <!--Товары для женщин-->
+                    <div class="product__separator">
+                        <!--Разделитель-->
+                        <span class="product__separator-text product__separator-text_men">women</span>
+                        <div class="product__separator-line"></div>
+                    </div>
+                    <div class="product__switch-content">
+                        <!--Переключатель-->
+                        <div class="product__indicator-page">
+                            <span class="product__indicator-page"> 1 </span>
+                            <span class="product__indicator-slash">&#47;</span>
+                            <span class="product__indicator-page"> 5 </span>
+                        </div>
+                        <div class="product_paginator">
+                            <a class="product_prev-page">
+                                <img src="img/icon/fa-chevron-left.png" alt="" class="product_paginator-pic">
+                            </a>
+                            <a class="product_next-page">
+                                <img src="img/icon/chevron-right.png" alt="" class="product_paginator-pic">
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="product__element-list" <!--Куртка-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/fa-angle-down.png" alt="angle_down"
+                                        class="product__element-size-img">
+                                </div>
+                                <ul class="product__element-color-list">
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/giacket.png" alt="tshirt" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    giacket
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        60,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Ботинки-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/fa-angle-down.png" alt="angle_down"
+                                        class="product__element-size-img">
+                                </div>
+                                <ul class="product__element-color-list">
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/trekking_shoes.png" alt="tshirt" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    trekking shoes
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        80,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Футболка-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/fa-angle-down.png" alt="angle_down"
+                                        class="product__element-size-img">
+                                </div>
+                                <ul class="product__element-color-list">
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color">
+                                        <a href="#" class="product__element-color-link">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/tshirt.png" alt="tshirt" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    t-shirt
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        20,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+            </ul>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <div class="about-us__content">
+                    <fieldset>
+                        <legend>
+                            About us
+                        </legend>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, eum voluptate
+                        voluptas fuga, fugiat autem nihil modi officia alias illum culpa repudiandae ea accusantium
+                        quos explicabo totam dolorum! Ipsa, laboriosam!
+                    </fieldset>
+                </div>
+            </div>
+        </section>
+    </div>
+    <label for="">
+        <input type="checkbox" name="" id="">
+        <div class=block></div>
+
+        </div>
+    </label>
+</body>
+
+</html>
